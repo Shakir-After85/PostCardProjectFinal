@@ -11,9 +11,11 @@ body {
 .postcard {
 	display: block;
 	background: white;
-	width: 400px;
+	width: 500px;
 	height: 350px;
-	margin: auto;
+	bottom: auto;
+	margin: 0 auto;
+	padding: 10px;
 	font-family: Bradley Hand, cursive;
 }
 
@@ -42,10 +44,8 @@ body {
 }
 
 .body-left p:first-child {
-	margin-top: 0%;
 	padding: 0%;
-	width: 150px;
-	height: 150px;
+	width: 100%;
 	font-size: 15px;
 }
 
@@ -60,7 +60,7 @@ input {
 	width: 80%;
 	padding: 5px 10px;
 	border: none;
-	border-bottom: grey;
+	border-bottom: 1px solid grey;
 }
 .postcard-footer {
 	text-align: center;
